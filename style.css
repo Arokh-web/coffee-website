@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #4e3d42; /* Van Dyke */
+    --secondary-text-color: #6d6466; /* Dim Gray */
+    --third-text-color: #CCF8D4; /* Tea Green */
+    --background-color: #e3dbdb; /* Prussian Blue */
+    --nav-bar-background: #9b8816; /* Olive */
+    --hover-color: #CCF8D4; /* Tea Green */
+}
+
+body {
+    background-color: var(--background-color);
+    width: 80%;
+}
+
+/* Menue and Navbar */
+
+a:hover {
+    color: var(--background-color);
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.menue {
+    padding: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--secondary-text-color);
+    background-image: linear-gradient(to bottom, var(--nav-bar-background), var(--background-color))
+}
+
+#headline {
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#add {
+    color: var(--primary-text-color);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2%;
+}
+
+.textfeld {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: justify;
+    margin: 3%;
+}
+
+#headimage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Picture in the Middle */
+
+#headimage {
+    aspect-ratio: 1;
+    border-radius: 25%;
+    object-fit: cover;
+    filter: sepia(1);
+    margin: 2%;
+    width: 50%;
+}
+
+figcaption {
+    visibility: hidden;
+}
