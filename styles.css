@@ -84,7 +84,7 @@ figcaption {
 
 #form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 4fr;
 }
 
 label, input, textarea {
@@ -98,7 +98,7 @@ label {
 
 input, textarea {
     justify-self: start;
-    width: 100%;
+    width: 50%;
     border: 2px solid beige;
-    background-color: var(--nav-bar-background);
+    background-color: lightblue;
 }
