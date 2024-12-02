@@ -74,6 +74,7 @@ a {
     filter: sepia(1);
     margin: 2%;
     width: 50%;
+    height: 50%;
 }
 
 figcaption {
